@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<!-- Coding done by (M.B) | Mangesh Bhardwaj -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio website created for Web Development Intership at CodSoft"
+    />
+    <meta name="author" content="Mangesh Bhardwaj" />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Assets/Favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Assets/Favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./Assets/Favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="Assets/Favicon/site.webmanifest" />
+
+    <!-- Add Fontawesome Kit -->
+    <script src="./js/all.min.js"></script>
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>MB's PortFolio</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#">
+          <img src="./Assets/Logo/logo.png" alt="MB" height="80" width="80" />
+        </a>
+
+        <div class="nav-menu">
+          <ul class="nav-list">
+
+            <li class="nav-item">
+              <a href="#home" class="nav-link active-link">
+                <i class="fa-solid fa-house nav-icon"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#about" class="nav-link">
+                <i class="fa-solid fa-circle-user nav-icon"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#service" class="nav-link">
+                <i class="fa-solid fa-suitcase nav-icon"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">
+                <i class="fa-solid fa-code nav-icon"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">
+                <i class="fa-solid fa-phone-volume nav-icon"></i>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home-container container grid">
+          <div class="home-data">
+            <span class="home-greeting">Hello I'm</span>
+            <h1 class="home-name">Mangesh Bhardwaj</h1>
+            <h3 class="home-profession">
+              Frontend Developer
+            </h3>
+
+            <div class="home-button">
+              <a href="./Resume/index.html" download="" class="button button-ghost">
+                Download <i class="fa-solid fa-download fa-beat-fade" style="--fa-beat-fade-scale: 1.075s; --fa-beat-fade-opacity: 0.67;"></i> CV
+              </a>
+              <a href="#about" class="button">About Me</a>
+            </div>
+          </div>
+
+          <div class="handle-border">
+            <div class="home-handle">
+              <img src="./Assets/Images/BgRemoved.png" alt="MB" class="home-img" />
+            </div>
+          </div>
+
+          <div class="home-social">
+            <a href="#" target="_blank" class="home-social-link">
+                  <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" target="_blank" class="home-social-link">
+                  <i class="fab fa-github"></i>
+            </a>
+            <a href="#" target="_blank" class="home-social-link">
+                  <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+
+          <a href="#about" class="home-scroll">
+            <i class="fa-solid fa-angles-down fa-bounce home-scroll-icon"></i>
+            <span class="home-scroll-name">Scroll Down</span>
+          </a>
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <span class="section-subtitle">My Intro</span>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container container grid">
+          <img src="./Assets/Images/mb.jpg" alt="about" class="about-img">
+
+          <div class="about-data">
+
+            <!--=============== About Box 1 ===============-->
+            <div class="about-info">
+              <div class="about-box">
+                <i class="fa-solid fa-award about-icon"></i>
+                <h3 class="about-title">Experience</h3>
+                <span class="about-subtitle">1+ Years Working</span>
+              </div>
+
+              <!--=============== About Box 2 ===============-->
+              <div class="about-box">
+                <i class="fa-solid fa-code about-icon"></i>
+                <h3 class="about-title">Completed</h3>
+                <span class="about-subtitle">6+ Projects</span>
+              </div>
+
+              <!--=============== About Box 2 ===============-->
+              <div class="about-box">
+                <i class="fa-solid fa-headset about-icon"></i>
+                <h3 class="about-title">Support</h3>
+                <span class="about-subtitle">24/7</span>
+              </div>
+            </div>
+
+            <p class="about-description">
+              Hey I'm Mangesh Bhardwaj a Passinate Frontend Developer & Tech Entuasist ready to learn everyday.
+            </p>
+            <div style="display: flex; flex-direction: row;">
+              <span style="margin: 6px;">Skills:</span>
+              <span style="margin: 6px;">HTML</span>
+              <span style="margin: 6px;">CSS</span>
+              <span style="margin: 6px;">JavaScript</span>
+              <span style="margin: 6px;">Sass</span>
+              <span style="margin: 6px;">React</span>
+            </div>
+            <br>
+
+            <a href="#contact" class="button">Contact Now
+              <i class="fa-brands fa-airbnb" style="font-size: 16px;margin-left: 10px;transform: rotate(45deg);"></i>
+            </a>
+
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="service">
+        <span class="section-subtitle">What I Offer</span>
+        <h2 class="section-title">My Services</h2>
+
+        <div class="service-container container grid">
+
+          <!--=============== Service 1 ===============-->
+          <div class="service-card">
+            <img src="./Assets/Images/web-developer.jpg" alt="Web-Developer" class="service-img">
+            <div class="service-modal">
+              <div>
+                <span class="service-subtitle">We make your Dream Website</span>
+                <h3 class="service-title">Web Developer</h3>
+                <a href="#contact" class="service-button button button-small">
+                  <i class="fa-solid fa-link fa-shake"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--=============== Service 2 ===============-->
+          <div class="service-card">
+            <img src="./Assets/Images/instructor.jpg" alt="Instructor" class="service-img">
+            <div class="service-modal">
+              <div>
+                <span class="service-subtitle">Teaching more than 2.5K</span>
+                <h3 class="service-title">instructor</h3>
+                <a href="#contact" class="service-button button button-small">
+                  <i class="fa-solid fa-link fa-shake"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--=============== Service 3 ===============-->
+          <div class="service-card">
+            <img src="./Assets/Images/app-developer.jpg" alt="app-Developer" class="service-img">
+            <div class="service-modal">
+              <div>
+                <span class="service-subtitle">We build awesome apps</span>
+                <h3 class="service-title">App Developer</h3>
+                <a href="#contact" class="service-button button button-small">
+                  <i class="fa-solid fa-link fa-shake"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--=============== PROJECTS ===============-->
+      <section class="project section" id="project">
+        <span class="section-subtitle">My work</span>
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-container container grid">
+          <!--=============== Project 1 ===============-->
+          <div class="project-card mix mobile">
+            <img src="./Assets/Images/Netflix.jpeg" alt="project1" class="project-img">
+            <h3 class="project-title">Netflix Landing Page</h3>
+            <a href="#" class="project-button">
+              Github <i class="fa-solid fa-arrow-right button-icon"></i>
+            </a>
+          </div>
+          <!--=============== Project 2 ===============-->
+          <div class="project-card">
+            <img src="./Assets/Images/Temperature Converter.jpeg" alt="project2" class="project-img">
+            <h3 class="project-title">Temperature Converter</h3>
+            <a href="#" class="project-button">
+              Github <i class="fa-solid fa-arrow-right button-icon"></i>
+            </a>
+          </div>
+          <!--=============== Project 3 ===============-->
+          <div class="project-card">
+            <img src="./Assets/Images/Landing Page.png" alt="project3" class="project-img">
+            <h3 class="project-title">PSD to HTML</h3>
+            <a href="#" class="project-button">
+              Github <i class="fa-solid fa-arrow-right button-icon"></i>
+            </a>
+          </div>
+          <!--=============== Project 4 ===============-->
+          <div class="project-card">
+            <img src="./Assets/Images/Calculator.png" alt="project4" class="project-img">
+            <h3 class="project-title">Calculator</h3>
+            <a href="#" class="project-button">
+              Github <i class="fa-solid fa-arrow-right button-icon"></i>
+            </a>
+          </div>
+          <!--=============== Project 5 ===============-->
+          <div class="project-card">
+            <img src="./Assets/Images/Tribute.png" alt="project5" class="project-img">
+            <h3 class="project-title">Tribute Page</h3>
+            <a href="#" class="project-button">
+              Github <i class="fa-solid fa-arrow-right button-icon"></i>
+            </a>
+          </div>
+          <!--=============== Project 6 ===============-->
+          <div class="project-card">
+            <img src="./Assets/Images/comingsoon.png" alt="project6" class="project-img">
+            <h3 class="project-title">Coming Soon Page</h3>
+            <a href="#" class="project-button">
+              Github <i class="fa-solid fa-arrow-right button-icon"></i>
+            </a>
+          </div>
+        </div>
+
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <span class="section-subtitle">Get in Touch</span>
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-container container grid">
+          <div class="contact-content">
+            <h3 class="contact-title">Talk to me</h3>
+
+            <div class="contact-info">
+
+              <!-- Email -->
+              <div class="contact-card">
+                <i class="fa-solid fa-envelope contact-card-icon"></i>
+                <h3 class="contact-card-title">Email</h3>
+                <span class="contact-card-subtitle">mangeshbhardwaj007@gmail.com</span>
+                <a action="mailto:mangeshbhardwaj007@gmail.com" target="_blank" class="contact-button">Write Me
+                  <i class="fa-solid fa-arrow-right contact-button-icon"></i>
+                </a>
+              </div>
+
+              <!-- Bentto Me -->
+              <div class="contact-card">
+                <i class="fa-brands fa-trello contact-card-icon"></i>
+                <h3 class="contact-card-title">Bento.Me</h3>
+                <span class="contact-card-subtitle">bento.me/mangesh</span>
+                <a href="https://bento.me/mangesh" target="_blank" class="contact-button">View
+                  <i class="fa-solid fa-arrow-right contact-button-icon"></i>
+                </a>
+              </div>
+
+              <!-- Messenger -->
+              <div class="contact-card">
+                <i class="fa-brands fa-facebook-messenger contact-card-icon"></i>
+                <h3 class="contact-card-title">Messenger</h3>
+                <span class="contact-card-subtitle">https://mb/</span>
+                <a href="#" target="_blank" class="contact-button">Write Me
+                  <i class="fa-solid fa-arrow-right contact-button-icon"></i>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="contact-content">
+            <h3 class="contact-title">Write me your project</h3>
+
+            <form class="contact-form">
+
+              <div class="contact-form-div">
+                <label for="" class="contact-form-tag">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your full name" class="contact-form-input" required>
+              </div>
+
+              <div class="contact-form-div">
+                <label for="" class="contact-form-tag">Contact Number</label>
+                <input type="tel" id="contact-no" placeholder="Enter your contact number" class="contact-form-input" required>
+              </div>
+
+              <div class="contact-form-div">
+                <label for="" class="contact-form-tag">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email address" class="contact-form-input" required>
+              </div>
+
+              <div class="contact-form-div contact-form-area">
+                <label for="" class="contact-form-tag">Enter Message</label>
+                <textarea name="message-box" id="message" cols="30" rows="10" placeholder="Enter your Message" class="contact-form-input" required></textarea>
+              </div>
+
+              <button class="button">Send Message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer-container container">
+
+        <a href="#"  class="footer-logo">
+          <img src="./Assets/Logo/logo.png" alt="MB" height="100" width="100" />
+        </a>
+
+        <ul class="footer-list">
+          <li>
+            <a href="#about" class="footer-link">About</a>
+          </li>
+          <li>
+            <a href="#service" class="footer-link">Services</a>
+          </li>
+          <li>
+            <a href="#project" class="footer-link">Projects</a>
+          </li>
+        </ul>
+
+        <span class="footer-author">
+          Made with <i class="fa-solid fa-heart fa-beat" style="--fa-beat-scale: 2;"></i> 
+          <a href="#" class="authur-location"> from Mangesh Bhardwaj</a> 
+        </span>
+
+        
+        <span class="footer-copy">
+          <i class="fa-regular fa-copyright"></i> 
+          <a href="#" class="copyright-location">Mangesh Bhardwaj</a>. All rights reserved. 
+        </span>
+      </div>
+    </footer>
+
+    <!-- Custom js -->
+    <script src="script.js"></script>
+  </body>
+</html>
